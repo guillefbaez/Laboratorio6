@@ -1,0 +1,105 @@
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/portada.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+
+    .navbar{
+        width:80%;
+        margin: auto;
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    
+    .logo{
+        width: 130px;
+        cursor: pointer;
+    }
+    .logo:hover{
+        transform: scale(0.75);
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    
+    .navbar ul li::before{
+        content: "";
+        height: 3px;
+        width: 0%;
+        background-color: purple;
+        position: absolute;
+        left:0;
+        bottom:-12px;
+        transition: 0.4s ease-out;
+    }
+    
+    .navbar ul li:hover::before{
+        width: 100%;
+    }
+
+    .navbar ul li::content{
+        color: purple;
+    }
+
+
+    .Bienvenida2 h1 {
+        font-family: "Times New Roman", serif;
+        font-size: 40px;
+        color:purple;
+        text-align: center;
+        background-color: wheat;
+        padding: 20px;
+        margin: 0;
+    }
+    .Bienvenida2 h2{
+        font-family: "Times New Roman", serif;
+        font-size: 30px;
+        color:purple;
+        background-color: wheat;
+    }
+    .Bienvenida2 a{
+        font-family:serif;
+        font-size: 20px;
+        background-image: transparent;
+        color:black;
+        background-color: gainsboro;
+        font-weight: bold;
+        
+    }
+    .aboutimg{
+        width: 400px;
+        height: 300px;
+        border-radius: 20%;
+        float: left; 
+        margin-right: 10px;
+    }
+    .text0{
+        color:white;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{ 
+        color: black;
+        font-weight: bold;
+        background-color: gainsboro;
+        border-radius: 30px;
+    }
